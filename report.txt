@@ -1,0 +1,31 @@
+
+Code explanation:
+
+Firstly,I declare variable and strings (line 13-45).
+
+Then I did all the work outside “main Proc”.
+
+I have called 12 times “everything Proc” in “main Proc” in order to play game (line 54-64).
+I write “tablo Proc” (line 938-1069) then we call “table Proc” (line 71) to display score screen.
+I open everything PROC (line 69-938)
+I write a loop to create  random dices (line 74-89). Then I create 5 dices with random variables between 1-6. I declare an array and send variables in array cells.
+Then dislay this random dices (line 92-114).
+Then I reroll the dices that user wants to change(line 92-114) and display dices(between line 116-127).
+
+After that if the user wants to reroll again we do same thing for a final roll(between line 129-165).
+
+After finish reroll procedure user must fill a place from table (line 173 -213.)Then we check the dices  (line 175-211)  and enter  score to the table according to rules (line 297-896).
+
+I don’t allow that user enter a number greater than 12 or less than 1.Also user cannot fill a line that already filled (line 218-292)
+
+There are 12 scoring rules in the game.Between line 297-896 we make switch case for scoring
+dices according to the combinations.
+
+I print the total score end of the game (line 903-920).
+I clear registers and variables (line 920-929).
+I write table PROC (line 938-1069)
+Then program ends.
+ 
+
+
+
